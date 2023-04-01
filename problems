@@ -10,4 +10,37 @@ alert("Your Love percentage is "+n+"% .");
 
 
 
-//
+//Javascript array problem
+
+var arr=["Raja","Chiku","Lija","Lucky","Lija"];
+var name=prompt("Enter your name:");
+var check=arr.includes(name);
+if(check){
+    alert("yes");
+}else{
+    alert("Sorry, not present");
+}
+
+
+//FIZZBUZZ laculator problem
+
+var arr = [];
+var n=1;
+function fizzbuzz(){
+    if((n%3 === 0)&&(n%5 !== 0)){
+        arr.push("fizz");
+        count++;
+    }
+    else if((n%5 === 0)&&(n%3 !== 0)){
+        arr.push("buzz");
+        count++;
+    }
+    else if((n%5 === 0)&&(n%3 === 0)){
+        arr.push("fizzbuzz");
+        count++;
+    }else{
+        arr.push(n);
+    }
+    n++;
+    console.log(arr);
+}
