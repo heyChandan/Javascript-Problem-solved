@@ -1,0 +1,13 @@
+//Love Calculator using javascript
+
+var n1= prompt("Enter your name:");
+var n2= prompt("Enter your crush name");
+
+var n= Math.random();
+n= (Math.floor(n*100))+1;
+
+alert("Your Love percentage is "+n+"% .");
+
+
+
+//
